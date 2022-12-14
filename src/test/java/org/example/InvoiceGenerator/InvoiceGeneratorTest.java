@@ -18,5 +18,5 @@ public class InvoiceGeneratorTest {
         double fare=invoiceGenerator.calculateFare(distance,time);
         double totalFare = 0;
         Assertions.assertEquals(25,fare,0.0);
-    }
+    }t
 }
